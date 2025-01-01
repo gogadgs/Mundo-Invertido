@@ -1,0 +1,120 @@
+body header{
+    padding:1rem;
+    margin:0 auto;
+    width: 100%;
+    background: var(--header-background-color);
+    position: relative;
+    min-height:53,125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+   
+   
+}
+
+
+body header nav{
+    position: relative;
+    margin:0 auto;
+    padding:1rem;
+}
+body header nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    width:100%;
+    margin:0 auto;
+    padding:1rem;
+}
+body header nav ul li{
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+body header nav ul li a{
+    color:violet;
+    text-transform: uppercase;
+    padding:1rem;
+    text-decoration: none;
+}
+body header nav ul li:hover a{
+    color:brown;
+    border: 1px solid #e51387;
+    border-radius:30px;
+    padding:1rem;
+    transform:scale(1.2);
+    transition: transform 0.3s ease-in-out; /* Adiciona transição suave */
+}
+
+
+/* header site oficial */
+
+
+ header::before{
+    content:"";
+    width: 100%;
+    height:100%;
+    position:absolute;
+    background-image: url("../IMAGES/banner/florest.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 90%;
+    filter:saturate(0);
+    opacity: 0.2;
+   
+    
+
+
+}
+
+
+.header-content{
+    max-width:43.75rem;
+    padding:5rem 1.25rem;
+    text-align: center;
+    z-index: 2;
+}
+.header-content  img{
+    width:80%;
+
+}
+
+.header-content p{
+    margin:1.875rem 0 3.125rem;
+}
+.header-content button{
+    border:3px solid var(--primary-color);
+    color:var(--primary-color);
+
+}
+
+.header-content button:hover{
+    background:var(--primary-color);
+    color:var(--primary-color-contrast);
+}
+
+
+#top-characters{
+    position:absolute;
+    z-index: 0;
+    top:20%;
+    bottom:0;
+    height:82%;
+        background:var(--character-top-image-color);
+        mask:var(--character-top-image-src) bottom / 100% no-repeat;
+        --webkit-mask:var(--character-top-image-src) bottom / 100% no-repeat;
+}
+
+#bottom-characters{
+    height:31.25rem;
+    background:var(--character-bottom-image-color);
+    top:3px;
+    transform:rotateZ(180deg) scaleX(-1);
+    position:relative;
+    margin:0 auto;
+    mask:var(--character-bottom-image-src) bottom / 100% no-repeat;
+    -webkit-mask:var(--character-bottom-image-src) bottom / 100% no-repeat;
+}
