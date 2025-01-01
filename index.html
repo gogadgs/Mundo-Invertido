@@ -11,10 +11,10 @@
         <link rel="shortcut icon" href="./assets/IMAGES/favicon.jpeg" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body class="dark-theme" aria-label="O site esta utilizando o tema light" role="body">
+    <body class="light-theme" aria-label="O site esta utilizando o tema light" role="body">
         <header aria-label="cabecalho principal do site">
             <nav>
-                <ul>
+                <ul class="invert-element">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Linkedin</a></li>
                     <li><a href="#">Portfolio</a></li>
@@ -45,7 +45,7 @@
             <div id="bottom-characters" class="world-characteres"></div>
             <div class="container">
                     <section id="section-inverted-world" class="container-section">
-                        <div class="section-texts">
+                        <div class="section-texts invert-element">
                             <h2>O mundo invertido</h2>
                             <p role="text">
                                 O mundo Invertido parece uma cópia do nosso mundo mas com criaturas horrendas, tempestades assustadoras
@@ -59,7 +59,7 @@
 
                     <section id="section-stranger-things-trailer" class="container-section">
                             <div class="video-frame" aria-hidden="true">
-                                <iframe
+                                <iframe class="invert-element"
                                     width="460"
                                     height="215"
                                     src="https://www.youtube.com/embed/SJ9EFhQ3ANQ?controls=0"
@@ -70,8 +70,8 @@
                                 </iframe>
                             </div>
                             <div class="section-texts">
-                                <h2>Stranger Things Vol. 4</h2>
-                                <p role="text">
+                                <h2 class="inverted-element">Stranger Things Vol. 4</h2>
+                                <p role="text" class="inverted-element">
                                     Mais experientes, os herois de Stranger Things também precisam 
                                     enfrentar desafios maiores do que nunca e fazer decisoes que vão
                                     mudar suas vidas para sempre. Confira ao lado o trailer da quarta
@@ -83,15 +83,15 @@
                     <section id="section-stranger-things-gallery">
                             <div class="container section-text">
                                 <h2>A segunda serie mais assistida da Netflix</h2>
-                                <ul class="gallery-container" role="gallery">
-                                    <li class="gallery-image  invert-element">
+                                <ul class="gallery-container invert-element" role="gallery">
+                                    <li class="gallery-image ">
                                         <img src="assets/IMAGES/content/serie-image-01.png" alt="imagem do Vecna"/>
                                     </li>
-                                    <li class="gallery-image  invert-element">
+                                    <li class="gallery-image  ">
                                         <img src="assets/IMAGES/content/serie-image-02.png" alt="imagem  ilustrativa dos amigos de Eleven "/>
                                     </li>
                                    
-                                    <li class="gallery-image  invert-element">
+                                    <li class="gallery-image">
                                         <img src="assets/IMAGES/content/serie-image-03.png" alt="imagem  Eleven assustada "/>
                                     </li>
                                    
@@ -100,17 +100,17 @@
 
                     </section>
                     <section id="section-form" class="container-section">
-                        <h2>O clube Dungerons & Dragons</h2>
-                        <p>
+                        <h2 class="invert-element">O clube Dungerons & Dragons</h2>
+                        <p class="invert-element">
                             Para deter Vecna, os herois de Stranger Things tambem precisam de 
                             voce. O clube de D&D mais famoso de Hawkings está com vagas abertas
                             para sua próxima aventura . Se você é destemido , gosta  de desafios 
                             e nao tem medo de rodar o D20, chegou a hora  de inscrever para 
                             fazer parte da sua campanha.
                         </p>
-                        <div class="form-content">
+                        <div class="form-content invert-element">
                             <h3>Entre para o clube de D&D e tenha  experiencias de <span>outro mundo</span></h3>
-                            <div class="form-container">
+                            <div class="form-container ">
                                 <form>
                                     <label for="txtName">Nome Completo</label>
                                     <input type="text" name="name" id="txtName">
@@ -133,7 +133,7 @@
                     </section>
             </div>
         </main>
-        <footer>
+        <footer class="invert-element">
             <p>Projeto para fins didaticos , com o objetivo de colocar em  pratica conhecimentos de HTML, CSS e Javascript aprendidos na DIO</p>
             <ol>
                 <li><a href=""><i class="fa fa-instagram fa-fw"></i></a></li>

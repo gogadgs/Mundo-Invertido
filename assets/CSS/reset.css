@@ -38,10 +38,10 @@
     --header-background-color:#220f0f;
     --highLigth-color:#ffffff;
     --featured-font-family:"Rubik Glitch",sans-serif;
-    --character-top-image-src:url("../IMAGES/characters/kids-on-the-bike.svg");
-    --character-top-image-color:rgba(255,255,255,0.1);
-    --character-bottom-image-src:url("../IMAGES/characters/inverted-world-monster.svg");
-    --character-bottom-image-color:#000;
+    --character-bottom-image-src:url("../IMAGES/characters/kids-on-the-bike.svg");
+    --character-bottom-image-color:rgba(255,255,255,0.1);
+    --character-top-image-src:url("../IMAGES/characters/inverted-world-monster.svg");
+    --character-top-image-color:#000;
     --background-lamp-image:url("../IMAGES/backgrounds/lamps-inverted.png");
     --footer-background-color:#000;
 
